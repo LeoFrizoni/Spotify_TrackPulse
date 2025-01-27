@@ -119,7 +119,7 @@ def save_statistics_to_file(data, file_name="artist_stats.csv"):
 
 # Main interface connection
 def main():
-    client_id = 'YOURID'
+    client_id = 'YOURID' #You have to access the spotify API and make a request to them to be able to use
     client_secret = 'YOURSECRET'
     redirect_uri = 'http://localhost:8888/callback'
     
